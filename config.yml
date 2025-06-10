@@ -147,7 +147,7 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "ticesky blog Demo"
     Content: >
       👋 Welcome to demo page of Hugo's theme PaperMod!
 
