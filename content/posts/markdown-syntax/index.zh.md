@@ -1,14 +1,14 @@
 ---
 author: "Hugo Authors"
-title: "Markdown Syntax Guide For RTL"
+title: "Markdown Syntax Guide For L2"
 date: "2019-03-11"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-FAtags: ["markdown", "css", "html", "themes"]
-FAcategories: ["themes", "syntax"]
-FAseries: ["Themes Guide"]
+tags: ["标记语言", "css", "html", "主题", "测试"]
+categories: ["themes", "syntax"]
+series: ["Themes Guide"]
 aliases: ["migrate-from-jekyl"]
-ShowToc: true
-TocOpen: true
+ShowToc: false
+disableShare: true
 weight: 2
 ---
 
