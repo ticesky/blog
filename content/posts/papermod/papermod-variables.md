@@ -5,7 +5,6 @@ date: 2021-01-20
 tags: ["PaperMod", "Docs"]
 author: ["Aditya Telange"]
 draft: true
-weight: 5
 social:
   fediverse_creator: "@adityatelange@mastodon.social"
 ---

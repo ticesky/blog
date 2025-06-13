@@ -7,7 +7,6 @@ tags: ["PaperMod", "Docs"]
 author: ["PaperMod Contributors"]
 draft: true
 aliases: [/posts/papermod/papermod-how-to]
-weight: 3
 ---
 
 > - **We'll be using `yml/yaml` format for all examples down below, I recommend using `yml` over `toml` as it is easier to read.**

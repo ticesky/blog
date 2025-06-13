@@ -1,6 +1,6 @@
 ---
 author: ["Aditya Telange"]
-title: "Code Syntax Guide"
+title: "中文Code Syntax Guide"
 date: "2019-03-10"
 description: "Sample article showcasing basic code syntax and formatting for HTML elements."
 summary: "Sample article showcasing basic code syntax and formatting for HTML elements."
@@ -11,6 +11,7 @@ social:
   fediverse_creator: "@adityatelange@mastodon.social"
 disableShare: true
 ShowToc: false
+weight: 3
 ---
 
 ### Inline Code

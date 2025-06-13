@@ -1,10 +1,11 @@
 ---
 author: Hugo Authors
-title: Math Typesetting
+title: 中文Math Typesetting
 date: 2019-03-08
 description: A brief guide to setup KaTeX
 math: true
 ShowBreadCrumbs: false
+weight: 5
 ---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
