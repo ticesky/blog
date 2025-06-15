@@ -70,6 +70,8 @@ languages:
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
+      logo: 'img/logo-zh.png'
+      darkLogo: 'img/logo-dark-zh.png'
       languageAltTitle: 中文
       homeInfoParams:
         Title: "中文 Demo"
@@ -124,6 +126,8 @@ params:
   # comments: false
   images: ["images/papermod-cover.png"]
 
+  logo: 'img/logo-en.png'
+  darkLogo: 'img/logo-dark-en.png'
   homeInfoParams:
     Title: "ticesky blog Demo"
     Content: >
@@ -154,11 +158,8 @@ params:
   #   Text: "Suggest Changes" # edit text
   #   appendFilePath: true # to append file path to Edit link
 
-  # label:
-  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  # text: "Home"
-  # icon: icon.png
-  # iconHeight: 35
+  label:
+    iconHeight: 23
 
   # analytics:
   #     google:
@@ -166,9 +167,9 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
+    favicon: "/img/favicon.ico"
+    favicon16x16: "/img/favicon.ico"
+    favicon32x32: "/img/favicon.ico"
   #     apple_touch_icon: "<link / abs url>"
   #     safari_pinned_tab: "<link / abs url>"
 

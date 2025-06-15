@@ -57,3 +57,37 @@ iframe {
     font-weight: normal;
     margin-left: -0.0625em;
 }
+
+/* custom lang-switch style start */
+.lang-switch {
+    margin-inline-start: var(--gap);
+}
+
+.lang-switch li,
+.lang-switch ul,
+.logo-switches {
+    display: inline-flex;
+    margin: auto 0;
+}
+
+.lang-switch a {
+    margin: auto 0;
+    font-size: 16px;
+    font-weight: unset;
+}
+/* custom lang-switch style end */
+
+
+/* custom logo style start */
+.dark .logo-img {
+    display: none;
+}
+
+.logo a .dark-logo-img {
+    display: none;
+}
+
+.dark .logo a .dark-logo-img {
+    display: inline;
+}
+/* custom lang-switch style end */

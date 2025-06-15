@@ -1,8 +1,5 @@
 ---
 title: "About"
-searchHidden: true
-showBreadCrumbs: false
-hideMeta: true
-disableShare: true
+layout: "about"
 ---
 this is some text
