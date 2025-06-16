@@ -167,9 +167,9 @@ params:
 
   assets:
     disableHLJS: true
-    favicon: "/img/favicon.ico"
-    favicon16x16: "/img/favicon.ico"
-    favicon32x32: "/img/favicon.ico"
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon.ico"
+    favicon32x32: "img/favicon.ico"
   #     apple_touch_icon: "<link / abs url>"
   #     safari_pinned_tab: "<link / abs url>"
 
