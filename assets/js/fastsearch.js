@@ -88,13 +88,8 @@ sInput.onkeyup = function (e) {
             let resultSet = ''; // our results bucket
 
             for (let item in results) {
-                let href = results[item].item.permalink;
-                if(/^https?:.*\/blog/i.test(href)){
-                    const pathname = new URL(href, window.location.origin).pathname;
-                    href = pathname;
-                }
                 resultSet += `<li class="post-entry"><header class="entry-header">${results[item].item.title}&nbsp;»</header>` +
-                    `<a href="${href}" aria-label="${results[item].item.title}"></a></li>`
+                    `<a href="${results[item].item.permalink}" aria-label="${results[item].item.title}"></a></li>`
             }
 
             resList.innerHTML = resultSet;
