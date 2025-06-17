@@ -22,6 +22,12 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    <div
+        id="site-config"
+        style="display: none;"
+        data-target-route="{{ .Site.Params.targetRoute }}"
+        data-destination="{{ .Site.Params.destination }}"
+        data-base-url="{{ .Site.BaseURL }}">
 </body>
 
 </html>

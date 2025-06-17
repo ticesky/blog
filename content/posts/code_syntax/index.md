@@ -150,7 +150,3 @@ This is pre text
 </body>
 </html>
 {{< /highlight >}}
-
-### Github Gist
-
-{{< gist adityatelange 376cd56ee2c94aaa2e8b93200f2ba8b5 >}}

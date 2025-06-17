@@ -106,6 +106,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  destination: ['https?:.*baidu.com/*', 'http://localhost:1313']
+  targetRoute: '/blog'
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
