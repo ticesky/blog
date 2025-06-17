@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://yiyan.baidu.com/blog/"
+baseURL: "https://yiyan.baidu.com/ticesky_blog/"
 title: TiceskyBlog
 copyright: "© 2025 ernie bot"
 theme: [PaperMod]
@@ -106,7 +106,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  destination: ['https?:.*baidu.com/*', 'http://localhost:1313']
+  destination: ['https?:.*baidu.com/*', 'http://localhost']
   targetRoute: '/blog'
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Theme PaperMod
